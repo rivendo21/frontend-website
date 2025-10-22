@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: oklch(0.446 0.043 257.281);
+  border-bottom: 1px solid #374151;
+}
+
+.nav-logo {
+  color: green;
+  margin-left: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.logo-text {
+  color: black;
+}
+
+.login-btn {
+  padding: 0.5rem 2rem;
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.login-btn:hover {
+  background-color: #16a34a;
+}
